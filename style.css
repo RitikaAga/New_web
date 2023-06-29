@@ -1,0 +1,223 @@
+*{
+    margin:auto;
+}
+.main_container{
+    width:100%;
+    margin: 0px;
+}
+.nav{ 
+background: #f0f0f0;
+    width: 1346px;
+ height: 63px;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        }
+.nav_list{
+display: flex;
+ position: relative;
+ }
+
+ .logo1{
+    position: absolute;
+    top: 11px;
+    left: 4%;
+ }
+ .logo2 {
+position: absolute;
+    top: 23px;
+    left: 9%;
+ }
+ .logo3 {
+position: absolute;
+    top: 10px;
+    left: 65%;
+ }
+ .logo4 {
+        position: absolute;
+            top: 8px;
+            left: 73%;
+
+ }
+ .logo5{
+    position: absolute;
+        top: 11px;
+        left: 81%;
+ }
+ .logo6{
+        position: absolute;
+            top: 11px;
+            left: 88%;
+ }
+
+ .main_container2{
+    display: flex;
+        background-color: rgb(210, 169, 169);
+        position: relative;
+ }
+
+ .left_sidebar{
+        width: 94px;
+            height: 562px;
+            position: absolute;
+            border-radius: 0px 26px 10px 0px;
+            box-shadow: 1px 1px 1px grey;
+ }
+ .black_area{
+        height: 33px;
+            background-color: black;
+            border-radius: 0px 26px 0px 0px;
+ }
+ .number{
+            color: blue;
+                border: 1px solid blue;
+                position: absolute;
+                top: 79px;
+                left: 30px;
+                width: 51px;
+                height: 45px;
+                padding-top: 12px;
+                text-align: center;
+                font-size: 30px;
+                border-radius: 15px
+ }
+ .middle_container{
+        width: 86%;
+            height: 1000px;
+            position: absolute;
+            left: 7%;
+ }
+  .right_sidebar {
+    width: 90px;
+    height: 361px; 
+        position: absolute;
+        top:20px;
+        left: 93%;
+        border-radius: 30px 0px 0px 30px;
+        box-shadow: 10px 0px 0px grey;
+  }
+
+  .inner1{
+    display: inline-block;
+        background-color: white;
+        width: 1160px;
+        height: 67px;
+  }
+
+  .inner1_heading{
+font-size:28px;
+    color: blue;
+        font-weight: bold;
+        font-family: sans-serif;
+        position: absolute;
+            top: 14px;
+                left: 3%;
+  }
+  .inner1_btn{
+    position: absolute;
+        top: 10px;
+        left: 89%;
+        width: 106px;
+        height: 35px;
+        background-color: blue;
+        color: white;
+        border-radius: 10px;
+        border-color: transparent;
+        font-family: sans-serif;
+  }
+
+  .inner2 {
+            display: inline-block;
+                background-Color: #d2d1d1;
+                width: 1094px;
+                height: 109px;
+                margin: 19px 24px 23px 34px;
+                position: relative;
+                border-color: transparent;
+                border-radius: 5px;
+  }
+
+  .inner2_heading{
+font-size: 20px;
+    font-weight: bold;
+font-family: Poppins;
+    position: absolute;
+    top: 18px;
+    left: 3%;
+    letter-spacing: 0.4px;
+
+  }
+
+  .inner2_pera{
+    font-size: 14px;
+        font-family: sans-serif;
+        position: absolute;
+        top: 55px;
+        left: 3%;
+        width: 1012px;
+        letter-spacing: 0.28px;
+        line-height: 1.5;
+  }
+
+   .inner3 {
+       display: flex;
+       background-color: rgb(104, 94, 161);
+       position: relative;
+   }
+
+   .note{
+    width: 34px;
+        height: 360px;
+        background-color: black;
+        color: white;
+        font-size: 17px;
+        margin-left: 0px;
+        border-radius: 20px 0px 0px 20px;
+   }
+
+   .big1{
+        width: 396px;
+            height: 504px;
+            background-color: bisque;
+            border-radius: 20px;
+            position: absolute;
+                top: 55px;
+        left: 10%;
+   }
+
+   .big_heading{
+    display: inline-block;
+        color: white;
+        font-size: 20px;
+        background-color: black;
+        width: 366px;
+        height: 29px;
+        text-align: center;
+        padding: 15px;
+        border-radius: 20px 20px 0px 0px;
+   }
+
+   .big_pera {
+        display: inline-block;
+            /* background-color: green; */
+            height: 61px;
+            margin-top: 10p;
+            text-align: center;
+            padding-top: 13px;
+            font-size: 12px;
+                letter-spacing: 1px;
+   }
+
+   .big1_video{
+ height: 238px;
+    background-image: url(./asset/video_image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+   }
+
+   .big2 {
+        width: 396px;
+            height: 504px;
+       background-color: rgb(207, 128, 32);
+        border-radius: 20px;position: absolute;
+            top: 55px;
+                left: 57%;
+   }
